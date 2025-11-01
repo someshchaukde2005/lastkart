@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lastkart - Fresh Deals, Before They're Gone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#007A7A',
+                '50': '#E0F2F2',
+                '100': '#B3DFDF',
+                '200': '#80CBCB',
+                '300': '#4DB6B6',
+                '400': '#26A6A6',
+                '500': '#009696',
+                '600': '#008989',
+                '700': '#007A7A',
+                '800': '#006B6B',
+                '900': '#004D4D',
+              },
+              secondary: {
+                DEFAULT: '#FF8A65',
+                'light': '#FFAB91',
+                'dark': '#F4511E',
+              },
+              accent: '#FFCA28',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
+   

@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Lastkart",
+  "description": "An e-commerce platform for retailers to sell near-expiry products at discounted prices. It includes features for buyers, retailers, and a comprehensive admin panel for analytics and management.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
